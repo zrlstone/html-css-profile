@@ -1,0 +1,219 @@
+/* Colors and fonts */
+body {
+  background: #65D1FF;
+  color: #444444;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #444444;
+  font-size: 32px;
+  font-weight: 700;
+
+}
+
+h2 {
+  color: #444444;
+  font-size: 24px;
+  font-weight: 700;
+
+}
+
+h3 {
+  color: #444444;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  color: #E94E42;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+
+
+/* Custom design with class 99% of your design */
+
+.container {
+  width: 700px;
+  margin: 0px auto;
+}
+
+
+.card {
+  background-color: #eeeeee;
+  padding: 0px;
+  box-shadow: 7px 7px rgba(0, 0, 0, 0.4);
+  margin: 36px 0px;
+
+  border: 3px solid black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.toolbar {
+  margin: 0px;
+  border-bottom: 3px solid black;
+}
+
+.toolbar i {
+  text-align: left;
+  padding: 0px 0px 0px 10px;
+}
+
+.img-border {
+  box-shadow: 2px 2px #393e46;
+  border: 3px solid black;
+}
+
+.btn-white {
+  background-color: #eeeeee;
+  color: #222831;
+  padding: 15px 20px;
+  box-shadow: 5px 5px #393e46;
+  border: 3px solid black;
+  font-weight: bold;
+}
+
+.btn-white:hover {
+  color: #222831;
+  background-color: #ffd369;
+
+
+}
+
+.information-box {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #393e46 ;
+  box-shadow: 2px 2px #393e46;
+  text-align: left;
+}
+
+.information-box p {
+  padding: 0px 0px 0px 28px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 40px 0px 40px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px 0px 0px 0px;
+}
+
+.list-inline i {
+  font-size: 66px;
+}
+
+.list-inline .fa-circle {
+  font-size: 10px;
+}
+
+
+footer {
+  background-color: rgba(238, 238, 238, 0.3);
+  border: 1px solid black;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  border-radius: 30px 30px 3px 3px;
+}
+
+
+
+.far:hover, .fab:hover {
+  transform: scale(1.1);
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#green-card{
+  background-color: #64C1BE;
+}
+
+#red-card {
+  background-color: #E94E42;
+}
+
+#yellow-card {
+  background-color: #EDC44D;
+}
+
+.inline-links {
+  color: #659fFF;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+
+  footer {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+  footer {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  footer {
+    width: 300px;
+  }
+
+  .list-inline i {
+    font-size: 32px;
+  }
+
+  .list-inline > li {
+  display: inline-block;
+  padding: 0px 25px 0px 25px;
+
+
+}
+
+}
+
