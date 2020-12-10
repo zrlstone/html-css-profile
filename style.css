@@ -2,12 +2,12 @@
 body {
   background: #65D1FF;
   color: #444444;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 16px;
 }
 
 h1, h2, h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 h1 {
